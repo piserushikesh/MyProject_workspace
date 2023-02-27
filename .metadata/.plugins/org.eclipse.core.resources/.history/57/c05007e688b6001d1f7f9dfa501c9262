@@ -1,0 +1,11 @@
+package com.pojos;
+
+
+@Entity
+@Getter
+@Setter
+@ToString
+
+public class BaseEntity {
+	private long Id;
+}

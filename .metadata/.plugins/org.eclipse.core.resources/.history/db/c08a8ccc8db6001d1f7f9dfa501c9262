@@ -1,0 +1,17 @@
+package com.pojos;
+
+import javax.persistence.*;
+
+public class Faculty {
+	
+	@Id
+	@Column(length = 15, unique = true)
+	private String facultyId;
+	
+	@Column(name = "Roll_No", length = 20) 
+	private String qualification;
+	
+	@Enumerated(EnumType.STRING) 
+	@Column(name = "Batch", length = 10) 
+	private Batch student_batch;
+}

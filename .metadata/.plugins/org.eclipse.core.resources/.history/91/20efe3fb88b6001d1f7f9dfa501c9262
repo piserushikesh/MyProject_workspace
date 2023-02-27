@@ -1,0 +1,12 @@
+package com.pojos;
+
+import javax.persistence.*;
+
+@Entity
+@Getter
+@Setter
+@ToString
+
+public class BaseEntity {
+	private long Id;
+}

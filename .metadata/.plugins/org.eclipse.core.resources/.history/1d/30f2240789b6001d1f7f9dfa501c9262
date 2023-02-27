@@ -1,0 +1,14 @@
+package com.pojos;
+
+import javax.persistence.*;
+
+import lombok.*;
+
+@Entity
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
+public class BaseEntity {
+	private long Id;
+}
